@@ -18,15 +18,14 @@ NanoSim can only be run on Linux
 ex. 
 ``` 
 simulator.py genome \
-    --ref_g ../CHM13_neg_3000.fasta \
-    --model_prefix human_NA12878_DNA_FAB49712_guppy/training \
-    --number 100 \
-    --coverage 1 \
-    --output telopore_sim_neg_3000 \
+    --ref_g dataset/CHM13_nontelomere.fasta \
+    --model_prefix nanosim/human_giab_hg002_sub1M_kitv14_dorado_v3.2.1/training \
+    --number 5000 \
+    --output nanosim/telopore_sim_0_1000 \
     --num_threads 4
 ```
 
 ### Data post processing
-`python sim_to_csv.py sim_pos_aligned.fasta sim_neg_aligned.fasta out.csv`
+`python src/sim_to_csv.py nanosim/telopore_sim_1_1000_aligned_reads.fasta nanosim/telopore_sim_2_1000_aligned_reads.fasta nanosim/telopore_sim_0_1000_aligned_reads.fasta out.csv`
 
 ## ML Training

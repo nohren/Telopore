@@ -2,7 +2,7 @@
 
 import sys
 import csv
-import re
+# import re
 
 def load_c_map(csv_file):
     code_map = {}
@@ -38,24 +38,28 @@ def parse_fasta_and_write_to_csv(fasta_file, is_telomere, csv_writer):
             csv_writer.writerow([code, chromosome, is_telomere, sequence])  
         
 
-def main(pos_fasta, neg_fasta, out_csv):
+def main(tl_fasta, sub_tl_fasta, non_tl_fasta, out_csv):
     with open(out_csv, 'w', newline='') as fout:
         writer = csv.writer(fout)
         # Write a header row (Code, Chromosome, Telomere, Sequence)
         writer.writerow(["Code", "Chromosome", "Telomere", "Sequence"])
 
-        # 1) Parse the 'positive' (telomeric) FASTA
-        parse_fasta_and_write_to_csv(pos_fasta, 1, writer)
+        # 1) Parse the 'tl' (telomeric) FASTA
+        parse_fasta_and_write_to_csv(tl_fasta, 1, writer)
 
-        # 2) Parse the 'negative' (non-telomeric) FASTA
-        parse_fasta_and_write_to_csv(neg_fasta, 0, writer)
+        # 2) Parse the 'sub_tl' (sub-telomeric) FASTA
+        parse_fasta_and_write_to_csv(sub_tl_fasta, 2, writer)
+
+        # 2) Parse the 'non_tl' (non-telomeric) FASTA
+        parse_fasta_and_write_to_csv(non_tl_fasta, 0, writer)
 
 if __name__ == "__main__":
-    if len(sys.argv) < 4:
-        print(f"Usage: {sys.argv[0]} <telomeric.fasta> <non_telomeric.fasta> <output.csv>")
+    if len(sys.argv) < 5:
+        print(f"Usage: {sys.argv[0]} <telomeric.fasta> <sub_telomeric.fasta> <non_telomeric.fasta> <output.csv>")
         sys.exit(1)
 
-    pos_fasta = sys.argv[1]
-    neg_fasta = sys.argv[2]
-    out_csv = sys.argv[3]
-    main(pos_fasta, neg_fasta, out_csv)
+    tl_fasta = sys.argv[1]
+    sub_tl_fasta = sys.argv[2]
+    non_tl_fasta = sys.argv[3]
+    out_csv = sys.argv[4]
+    main(tl_fasta, sub_tl_fasta, non_tl_fasta, out_csv)
