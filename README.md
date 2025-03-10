@@ -11,17 +11,21 @@ Using nanopore data to distinguish telomeric regions and their respective chromo
 
 Simulating long reads
 
-`cd nanoSim`
+F.Y.I NanoSim can only be run on Linux
 
-NanoSim can only be run on Linux
+Install
+```
+conda create -n nanosim_env
+conda install -c bioconda nanosim
+```
 
 ex. 
 ``` 
 simulator.py genome \
-    --ref_g dataset/CHM13_nontelomere.fasta \
+    --ref_g reference_set/CHM13_telomere.fasta \
     --model_prefix nanosim/human_giab_hg002_sub1M_kitv14_dorado_v3.2.1/training \
     --number 5000 \
-    --output nanosim/telopore_sim_0_1000 \
+    --output nanosim/telopore_sim_1_1000 \
     --num_threads 4
 ```
 
