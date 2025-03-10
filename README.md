@@ -5,7 +5,7 @@ Using nanopore data to distinguish telomeric regions and their respective chromo
 
 ### Data pre-processing
 
-`python telopore_data.csv <reference genome>`
+`python telomere.py <reference genome>`
 
 ### Data simulation
 
