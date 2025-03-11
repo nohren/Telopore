@@ -18,10 +18,21 @@ def load_c_map(csv_file):
             code_map[code] = chrom_clean
     return code_map
 
+def cn1_map():
+    map = {}
+    s = "chr"
+    for i in range(1,23):
+        map[s+str(i)] = i
+    map[s+"X"] = "X"
+    map[s+"Y"] = "Y"
+    map[s+"M"] = "M"
+    return map
+
 c_map = load_c_map('c_map.csv')
+cn1_map = cn1_map()
 
 def get_chromosome(code_str):
-    return c_map.get(code_str, "NA")
+    return c_map.get(code_str, cn1_map.get(code_str, "NA"))
 
 def parse_header(header_line):
     return header_line[1:].split("_")[0]
