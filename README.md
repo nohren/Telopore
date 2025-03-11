@@ -33,3 +33,7 @@ simulator.py genome \
 `python src/sim_to_csv.py nanosim/telopore_sim_1_1000_aligned_reads.fasta nanosim/telopore_sim_2_1000_aligned_reads.fasta nanosim/telopore_sim_0_1000_aligned_reads.fasta out.csv`
 
 ## ML Training
+
+
+## Slides
+https://docs.google.com/presentation/d/1h6-Foln7q_qHxyBhF11Qq3hanGS4dr5PLo51-a4265s/edit?usp=sharing
