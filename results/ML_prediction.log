@@ -1,0 +1,400 @@
+nohup: ignoring input
+/home/xil240/anaconda3/envs/kgrl/lib/python3.10/site-packages/sklearn/linear_model/_logistic.py:465: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  n_iter_i = _check_optimize_result(
+/home/xil240/anaconda3/envs/kgrl/lib/python3.10/site-packages/sklearn/metrics/_classification.py:1565: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+/home/xil240/anaconda3/envs/kgrl/lib/python3.10/site-packages/sklearn/metrics/_classification.py:1565: UndefinedMetricWarning: Recall is ill-defined and being set to 0.0 in labels with no true samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+/home/xil240/anaconda3/envs/kgrl/lib/python3.10/site-packages/sklearn/metrics/_classification.py:1565: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+/home/xil240/anaconda3/envs/kgrl/lib/python3.10/site-packages/sklearn/metrics/_classification.py:1565: UndefinedMetricWarning: Recall is ill-defined and being set to 0.0 in labels with no true samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+/home/xil240/anaconda3/envs/kgrl/lib/python3.10/site-packages/sklearn/metrics/_classification.py:1565: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+/home/xil240/anaconda3/envs/kgrl/lib/python3.10/site-packages/sklearn/metrics/_classification.py:1565: UndefinedMetricWarning: Recall is ill-defined and being set to 0.0 in labels with no true samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+/home/xil240/anaconda3/envs/kgrl/lib/python3.10/site-packages/sklearn/metrics/_classification.py:1565: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+/home/xil240/anaconda3/envs/kgrl/lib/python3.10/site-packages/sklearn/metrics/_classification.py:1565: UndefinedMetricWarning: Recall is ill-defined and being set to 0.0 in labels with no true samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+/home/xil240/anaconda3/envs/kgrl/lib/python3.10/site-packages/sklearn/metrics/_classification.py:1565: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+/home/xil240/anaconda3/envs/kgrl/lib/python3.10/site-packages/sklearn/metrics/_classification.py:1565: UndefinedMetricWarning: Recall is ill-defined and being set to 0.0 in labels with no true samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+/home/xil240/anaconda3/envs/kgrl/lib/python3.10/site-packages/sklearn/metrics/_classification.py:1565: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+/home/xil240/anaconda3/envs/kgrl/lib/python3.10/site-packages/sklearn/metrics/_classification.py:1565: UndefinedMetricWarning: Recall is ill-defined and being set to 0.0 in labels with no true samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+/home/xil240/anaconda3/envs/kgrl/lib/python3.10/site-packages/sklearn/metrics/_classification.py:1565: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+/home/xil240/anaconda3/envs/kgrl/lib/python3.10/site-packages/sklearn/metrics/_classification.py:1565: UndefinedMetricWarning: Recall is ill-defined and being set to 0.0 in labels with no true samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+/home/xil240/anaconda3/envs/kgrl/lib/python3.10/site-packages/sklearn/metrics/_classification.py:1565: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+/home/xil240/anaconda3/envs/kgrl/lib/python3.10/site-packages/sklearn/metrics/_classification.py:1565: UndefinedMetricWarning: Recall is ill-defined and being set to 0.0 in labels with no true samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+/home/xil240/anaconda3/envs/kgrl/lib/python3.10/site-packages/sklearn/metrics/_classification.py:1565: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+/home/xil240/anaconda3/envs/kgrl/lib/python3.10/site-packages/sklearn/metrics/_classification.py:1565: UndefinedMetricWarning: Recall is ill-defined and being set to 0.0 in labels with no true samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+Analyzing dataset...
+Dataset Analysis:
+Number of training sequences: 2994
+Average training sequence length: 7162.34
+Min training sequence length: 100
+Max training sequence length: 39958
+Number of unique chromosomes: 25
+Chromosome distribution:
+  Chromosome 12: 149 sequences (4.98%)
+  Chromosome 11: 153 sequences (5.11%)
+  Chromosome 18: 72 sequences (2.40%)
+  Chromosome 19: 67 sequences (2.24%)
+  Chromosome 2: 157 sequences (5.24%)
+  Chromosome X: 161 sequences (5.38%)
+  Chromosome 9: 157 sequences (5.24%)
+  Chromosome 22: 102 sequences (3.41%)
+  Chromosome 16: 96 sequences (3.21%)
+  Chromosome 13: 71 sequences (2.37%)
+  Chromosome 8: 145 sequences (4.84%)
+  Chromosome 1: 146 sequences (4.88%)
+  Chromosome 15: 81 sequences (2.71%)
+  Chromosome Y: 77 sequences (2.57%)
+  Chromosome 3: 192 sequences (6.41%)
+  Chromosome 17: 81 sequences (2.71%)
+  Chromosome 4: 167 sequences (5.58%)
+  Chromosome 5: 159 sequences (5.31%)
+  Chromosome 7: 152 sequences (5.08%)
+  Chromosome 21: 82 sequences (2.74%)
+  Chromosome 20: 77 sequences (2.57%)
+  Chromosome 14: 76 sequences (2.54%)
+  Chromosome 6: 178 sequences (5.95%)
+  Chromosome nan: 22 sequences (0.73%)
+  Chromosome 10: 174 sequences (5.81%)
+
+Number of test sequences: 2994
+Average test sequence length: 7203.73
+Warning: Test set contains chromosomes not in training set: {'M'}
+
+Creating k-mer features...
+
+Training and evaluating models...
+
+Training Logistic Regression...
+Logistic Regression Accuracy: 0.1523
+Logistic Regression Classification Report:
+              precision    recall  f1-score   support
+
+           1       0.18      0.14      0.16       120
+          10       0.15      0.16      0.15       122
+          11       0.17      0.17      0.17       128
+          12       0.25      0.22      0.23       118
+          13       0.36      0.34      0.35       137
+          14       0.31      0.15      0.21       123
+          15       0.13      0.06      0.08       133
+          16       0.03      0.02      0.02       126
+          17       0.13      0.08      0.10       142
+          18       0.25      0.16      0.19       121
+          19       0.12      0.07      0.09       118
+           2       0.14      0.09      0.11       134
+          20       0.25      0.17      0.20       138
+          21       0.11      0.31      0.17       142
+          22       0.27      0.13      0.17       133
+           3       0.05      0.08      0.06       114
+           4       0.20      0.26      0.23       133
+           5       0.04      0.04      0.04       136
+           6       0.22      0.21      0.21       134
+           7       0.19      0.23      0.21       141
+           8       0.22      0.28      0.24       101
+           9       0.05      0.05      0.05       121
+           M       0.00      0.00      0.00        52
+           X       0.16      0.14      0.15       127
+           Y       0.00      0.00      0.00         0
+         nan       0.00      0.00      0.00         0
+
+    accuracy                           0.15      2994
+   macro avg       0.15      0.14      0.14      2994
+weighted avg       0.17      0.15      0.15      2994
+
+
+Training Random Forest...
+Random Forest Accuracy: 0.1146
+Random Forest Classification Report:
+              precision    recall  f1-score   support
+
+           1       0.13      0.10      0.11       120
+          10       0.10      0.16      0.12       122
+          11       0.28      0.16      0.20       128
+          12       0.11      0.13      0.12       118
+          13       0.33      0.07      0.12       137
+          14       0.32      0.07      0.11       123
+          15       0.10      0.04      0.05       133
+          16       0.11      0.08      0.09       126
+          17       0.19      0.05      0.08       142
+          18       0.35      0.09      0.14       121
+          19       0.30      0.08      0.13       118
+           2       0.07      0.09      0.08       134
+          20       0.22      0.08      0.12       138
+          21       0.10      0.16      0.12       142
+          22       0.32      0.15      0.20       133
+           3       0.13      0.31      0.18       114
+           4       0.05      0.06      0.05       133
+           5       0.18      0.12      0.15       136
+           6       0.13      0.19      0.15       134
+           7       0.10      0.11      0.11       141
+           8       0.15      0.24      0.18       101
+           9       0.07      0.06      0.06       121
+           M       0.00      0.00      0.00        52
+           X       0.09      0.13      0.11       127
+           Y       0.00      0.00      0.00         0
+         nan       0.00      0.00      0.00         0
+
+    accuracy                           0.11      2994
+   macro avg       0.15      0.11      0.11      2994
+weighted avg       0.17      0.11      0.12      2994
+
+
+Training SVM...
+SVM Accuracy: 0.0815
+SVM Classification Report:
+              precision    recall  f1-score   support
+
+           1       0.16      0.05      0.08       120
+          10       0.05      0.12      0.08       122
+          11       0.56      0.07      0.12       128
+          12       0.03      0.01      0.01       118
+          13       0.00      0.00      0.00       137
+          14       0.25      0.01      0.02       123
+          15       0.00      0.00      0.00       133
+          16       0.13      0.07      0.09       126
+          17       0.29      0.05      0.08       142
+          18       0.71      0.04      0.08       121
+          19       0.00      0.00      0.00       118
+           2       0.05      0.07      0.06       134
+          20       1.00      0.01      0.03       138
+          21       0.05      0.04      0.05       142
+          22       0.11      0.02      0.04       133
+           3       0.06      0.70      0.12       114
+           4       0.09      0.01      0.01       133
+           5       0.09      0.18      0.12       136
+           6       0.22      0.14      0.17       134
+           7       0.30      0.05      0.09       141
+           8       0.25      0.19      0.22       101
+           9       0.11      0.02      0.04       121
+           M       0.00      0.00      0.00        52
+           X       0.12      0.13      0.12       127
+           Y       0.00      0.00      0.00         0
+         nan       0.00      0.00      0.00         0
+
+    accuracy                           0.08      2994
+   macro avg       0.18      0.08      0.06      2994
+weighted avg       0.20      0.08      0.07      2994
+
+
+Best model: Logistic Regression with accuracy 0.1523
+
+Optimizing best model with hyperparameter tuning...
+/home/xil240/anaconda3/envs/kgrl/lib/python3.10/site-packages/sklearn/linear_model/_sag.py:348: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+  warnings.warn(
+/home/xil240/anaconda3/envs/kgrl/lib/python3.10/site-packages/sklearn/linear_model/_sag.py:348: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+  warnings.warn(
+/home/xil240/anaconda3/envs/kgrl/lib/python3.10/site-packages/sklearn/linear_model/_sag.py:348: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+  warnings.warn(
+/home/xil240/anaconda3/envs/kgrl/lib/python3.10/site-packages/sklearn/linear_model/_sag.py:348: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+  warnings.warn(
+/home/xil240/anaconda3/envs/kgrl/lib/python3.10/site-packages/sklearn/linear_model/_sag.py:348: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+  warnings.warn(
+/home/xil240/anaconda3/envs/kgrl/lib/python3.10/site-packages/sklearn/linear_model/_sag.py:348: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+  warnings.warn(
+/home/xil240/anaconda3/envs/kgrl/lib/python3.10/site-packages/sklearn/linear_model/_sag.py:348: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+  warnings.warn(
+/home/xil240/anaconda3/envs/kgrl/lib/python3.10/site-packages/sklearn/linear_model/_sag.py:348: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+  warnings.warn(
+/home/xil240/anaconda3/envs/kgrl/lib/python3.10/site-packages/sklearn/linear_model/_sag.py:348: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+  warnings.warn(
+/home/xil240/anaconda3/envs/kgrl/lib/python3.10/site-packages/sklearn/linear_model/_sag.py:348: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+  warnings.warn(
+/home/xil240/anaconda3/envs/kgrl/lib/python3.10/site-packages/sklearn/linear_model/_sag.py:348: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+  warnings.warn(
+/home/xil240/anaconda3/envs/kgrl/lib/python3.10/site-packages/sklearn/linear_model/_sag.py:348: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+  warnings.warn(
+/home/xil240/anaconda3/envs/kgrl/lib/python3.10/site-packages/sklearn/linear_model/_sag.py:348: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+  warnings.warn(
+/home/xil240/anaconda3/envs/kgrl/lib/python3.10/site-packages/sklearn/linear_model/_sag.py:348: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+  warnings.warn(
+/home/xil240/anaconda3/envs/kgrl/lib/python3.10/site-packages/sklearn/linear_model/_sag.py:348: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+  warnings.warn(
+/home/xil240/anaconda3/envs/kgrl/lib/python3.10/site-packages/sklearn/linear_model/_sag.py:348: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+  warnings.warn(
+/home/xil240/anaconda3/envs/kgrl/lib/python3.10/site-packages/sklearn/linear_model/_sag.py:348: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+  warnings.warn(
+/home/xil240/anaconda3/envs/kgrl/lib/python3.10/site-packages/sklearn/linear_model/_sag.py:348: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+  warnings.warn(
+/home/xil240/anaconda3/envs/kgrl/lib/python3.10/site-packages/sklearn/linear_model/_sag.py:348: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+  warnings.warn(
+/home/xil240/anaconda3/envs/kgrl/lib/python3.10/site-packages/sklearn/linear_model/_sag.py:348: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+  warnings.warn(
+/home/xil240/anaconda3/envs/kgrl/lib/python3.10/site-packages/sklearn/linear_model/_sag.py:348: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+  warnings.warn(
+/home/xil240/anaconda3/envs/kgrl/lib/python3.10/site-packages/sklearn/linear_model/_sag.py:348: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+  warnings.warn(
+/home/xil240/anaconda3/envs/kgrl/lib/python3.10/site-packages/sklearn/linear_model/_sag.py:348: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+  warnings.warn(
+/home/xil240/anaconda3/envs/kgrl/lib/python3.10/site-packages/sklearn/linear_model/_sag.py:348: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+  warnings.warn(
+/home/xil240/anaconda3/envs/kgrl/lib/python3.10/site-packages/sklearn/linear_model/_sag.py:348: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+  warnings.warn(
+/home/xil240/anaconda3/envs/kgrl/lib/python3.10/site-packages/sklearn/linear_model/_sag.py:348: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+  warnings.warn(
+/home/xil240/anaconda3/envs/kgrl/lib/python3.10/site-packages/sklearn/linear_model/_sag.py:348: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+  warnings.warn(
+/home/xil240/anaconda3/envs/kgrl/lib/python3.10/site-packages/sklearn/linear_model/_sag.py:348: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+  warnings.warn(
+/home/xil240/anaconda3/envs/kgrl/lib/python3.10/site-packages/sklearn/linear_model/_sag.py:348: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+  warnings.warn(
+/home/xil240/anaconda3/envs/kgrl/lib/python3.10/site-packages/sklearn/linear_model/_sag.py:348: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+  warnings.warn(
+/home/xil240/anaconda3/envs/kgrl/lib/python3.10/site-packages/sklearn/linear_model/_sag.py:348: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+  warnings.warn(
+/home/xil240/anaconda3/envs/kgrl/lib/python3.10/site-packages/sklearn/linear_model/_sag.py:348: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+  warnings.warn(
+/home/xil240/anaconda3/envs/kgrl/lib/python3.10/site-packages/sklearn/linear_model/_sag.py:348: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+  warnings.warn(
+/home/xil240/anaconda3/envs/kgrl/lib/python3.10/site-packages/sklearn/linear_model/_sag.py:348: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+  warnings.warn(
+/home/xil240/anaconda3/envs/kgrl/lib/python3.10/site-packages/sklearn/linear_model/_sag.py:348: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+  warnings.warn(
+/home/xil240/anaconda3/envs/kgrl/lib/python3.10/site-packages/sklearn/linear_model/_sag.py:348: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+  warnings.warn(
+/home/xil240/anaconda3/envs/kgrl/lib/python3.10/site-packages/sklearn/linear_model/_sag.py:348: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+  warnings.warn(
+/home/xil240/anaconda3/envs/kgrl/lib/python3.10/site-packages/sklearn/linear_model/_sag.py:348: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+  warnings.warn(
+/home/xil240/anaconda3/envs/kgrl/lib/python3.10/site-packages/sklearn/linear_model/_sag.py:348: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+  warnings.warn(
+/home/xil240/anaconda3/envs/kgrl/lib/python3.10/site-packages/sklearn/linear_model/_sag.py:348: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+  warnings.warn(
+/home/xil240/anaconda3/envs/kgrl/lib/python3.10/site-packages/sklearn/linear_model/_sag.py:348: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+  warnings.warn(
+/home/xil240/anaconda3/envs/kgrl/lib/python3.10/site-packages/sklearn/linear_model/_sag.py:348: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+  warnings.warn(
+/home/xil240/anaconda3/envs/kgrl/lib/python3.10/site-packages/sklearn/linear_model/_sag.py:348: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+  warnings.warn(
+/home/xil240/anaconda3/envs/kgrl/lib/python3.10/site-packages/sklearn/linear_model/_sag.py:348: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+  warnings.warn(
+/home/xil240/anaconda3/envs/kgrl/lib/python3.10/site-packages/sklearn/linear_model/_sag.py:348: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+  warnings.warn(
+/home/xil240/anaconda3/envs/kgrl/lib/python3.10/site-packages/sklearn/linear_model/_sag.py:348: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+  warnings.warn(
+/home/xil240/anaconda3/envs/kgrl/lib/python3.10/site-packages/sklearn/linear_model/_sag.py:348: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+  warnings.warn(
+/home/xil240/anaconda3/envs/kgrl/lib/python3.10/site-packages/sklearn/linear_model/_sag.py:348: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+  warnings.warn(
+/home/xil240/anaconda3/envs/kgrl/lib/python3.10/site-packages/sklearn/linear_model/_sag.py:348: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+  warnings.warn(
+/home/xil240/anaconda3/envs/kgrl/lib/python3.10/site-packages/sklearn/linear_model/_sag.py:348: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+  warnings.warn(
+/home/xil240/anaconda3/envs/kgrl/lib/python3.10/site-packages/sklearn/svm/_base.py:1249: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  warnings.warn(
+/home/xil240/anaconda3/envs/kgrl/lib/python3.10/site-packages/sklearn/svm/_base.py:1249: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  warnings.warn(
+/home/xil240/anaconda3/envs/kgrl/lib/python3.10/site-packages/sklearn/svm/_base.py:1249: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  warnings.warn(
+/home/xil240/anaconda3/envs/kgrl/lib/python3.10/site-packages/sklearn/svm/_base.py:1249: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  warnings.warn(
+/home/xil240/anaconda3/envs/kgrl/lib/python3.10/site-packages/sklearn/svm/_base.py:1249: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  warnings.warn(
+/home/xil240/anaconda3/envs/kgrl/lib/python3.10/site-packages/sklearn/svm/_base.py:1249: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  warnings.warn(
+/home/xil240/anaconda3/envs/kgrl/lib/python3.10/site-packages/sklearn/svm/_base.py:1249: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  warnings.warn(
+/home/xil240/anaconda3/envs/kgrl/lib/python3.10/site-packages/sklearn/svm/_base.py:1249: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  warnings.warn(
+/home/xil240/anaconda3/envs/kgrl/lib/python3.10/site-packages/sklearn/svm/_base.py:1249: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  warnings.warn(
+/home/xil240/anaconda3/envs/kgrl/lib/python3.10/site-packages/sklearn/svm/_base.py:1249: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  warnings.warn(
+/home/xil240/anaconda3/envs/kgrl/lib/python3.10/site-packages/sklearn/svm/_base.py:1249: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  warnings.warn(
+/home/xil240/anaconda3/envs/kgrl/lib/python3.10/site-packages/sklearn/svm/_base.py:1249: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  warnings.warn(
+/home/xil240/anaconda3/envs/kgrl/lib/python3.10/site-packages/sklearn/svm/_base.py:1249: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  warnings.warn(
+/home/xil240/anaconda3/envs/kgrl/lib/python3.10/site-packages/sklearn/svm/_base.py:1249: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  warnings.warn(
+/home/xil240/anaconda3/envs/kgrl/lib/python3.10/site-packages/sklearn/svm/_base.py:1249: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  warnings.warn(
+/home/xil240/anaconda3/envs/kgrl/lib/python3.10/site-packages/sklearn/svm/_base.py:1249: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  warnings.warn(
+/home/xil240/anaconda3/envs/kgrl/lib/python3.10/site-packages/sklearn/svm/_base.py:1249: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  warnings.warn(
+/home/xil240/anaconda3/envs/kgrl/lib/python3.10/site-packages/sklearn/svm/_base.py:1249: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  warnings.warn(
+/home/xil240/anaconda3/envs/kgrl/lib/python3.10/site-packages/sklearn/svm/_base.py:1249: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  warnings.warn(
+/home/xil240/anaconda3/envs/kgrl/lib/python3.10/site-packages/sklearn/svm/_base.py:1249: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  warnings.warn(
+/home/xil240/anaconda3/envs/kgrl/lib/python3.10/site-packages/sklearn/svm/_base.py:1249: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  warnings.warn(
+/home/xil240/anaconda3/envs/kgrl/lib/python3.10/site-packages/sklearn/svm/_base.py:1249: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  warnings.warn(
+/home/xil240/anaconda3/envs/kgrl/lib/python3.10/site-packages/sklearn/metrics/_classification.py:1565: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+/home/xil240/anaconda3/envs/kgrl/lib/python3.10/site-packages/sklearn/metrics/_classification.py:1565: UndefinedMetricWarning: Recall is ill-defined and being set to 0.0 in labels with no true samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+/home/xil240/anaconda3/envs/kgrl/lib/python3.10/site-packages/sklearn/metrics/_classification.py:1565: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+/home/xil240/anaconda3/envs/kgrl/lib/python3.10/site-packages/sklearn/metrics/_classification.py:1565: UndefinedMetricWarning: Recall is ill-defined and being set to 0.0 in labels with no true samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+/home/xil240/anaconda3/envs/kgrl/lib/python3.10/site-packages/sklearn/metrics/_classification.py:1565: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+/home/xil240/anaconda3/envs/kgrl/lib/python3.10/site-packages/sklearn/metrics/_classification.py:1565: UndefinedMetricWarning: Recall is ill-defined and being set to 0.0 in labels with no true samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+Best parameters: {'classifier__C': 100, 'classifier__penalty': 'l1', 'classifier__solver': 'liblinear'}
+Best cross-validation score: 0.4062
+
+Optimized Logistic Regression Accuracy: 0.1583
+Optimized Logistic Regression Classification Report:
+              precision    recall  f1-score   support
+
+           1       0.12      0.16      0.14       120
+          10       0.13      0.17      0.15       122
+          11       0.24      0.26      0.25       128
+          12       0.20      0.19      0.20       118
+          13       0.35      0.34      0.34       137
+          14       0.39      0.19      0.25       123
+          15       0.13      0.05      0.08       133
+          16       0.00      0.00      0.00       126
+          17       0.22      0.08      0.11       142
+          18       0.31      0.15      0.20       121
+          19       0.20      0.09      0.13       118
+           2       0.13      0.07      0.09       134
+          20       0.33      0.16      0.22       138
+          21       0.12      0.25      0.17       142
+          22       0.31      0.15      0.20       133
+           3       0.05      0.10      0.06       114
+           4       0.22      0.30      0.25       133
+           5       0.04      0.04      0.04       136
+           6       0.17      0.27      0.21       134
+           7       0.18      0.16      0.17       141
+           8       0.25      0.30      0.27       101
+           9       0.06      0.07      0.06       121
+           M       0.00      0.00      0.00        52
+           X       0.14      0.18      0.16       127
+           Y       0.00      0.00      0.00         0
+         nan       0.00      0.00      0.00         0
+
+    accuracy                           0.16      2994
+   macro avg       0.16      0.14      0.14      2994
+weighted avg       0.18      0.16      0.16      2994
+
+Model comparison visualization saved as 'model_comparison.pdf'
+
+Best model and vectorizer saved as 'best_chromosome_predictor_model.pkl' and 'kmer_vectorizer.pkl'
+
+Test Predictions:
