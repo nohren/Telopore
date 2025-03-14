@@ -253,10 +253,12 @@ class DoTrain():
         
 
 class DoInference:
-    def __init__(self, model, data_path, tokenizer_name, kmer=6):
+    def __init__(self, model, device, data_path, tokenizer_name, kmer=6):
         self.k = kmer
         self.tokenizer = AutoTokenizer.from_pretrained(tokenizer_name)
         self.model = model
+        self.device = device
+
 
         #preprocess
         df = pd.read_csv(data_path)
@@ -314,8 +316,8 @@ class DoInference:
                     padding='max_length',
                     max_length=512
                 )
-                input_ids = encoding['input_ids'].to(device)
-                attention_mask = encoding['attention_mask'].to(device)
+                input_ids = encoding['input_ids'].to(self.device)
+                attention_mask = encoding['attention_mask'].to(self.device)
                 outputs = model(input_ids, attention_mask)
                 logits_chr = outputs['logits_chr']
                 logits_tel = outputs['logits_tel']
@@ -367,3 +369,37 @@ class DoInference:
                 print(f'{index} predictions made')
 
         return sum(accChrom)/len(accChrom),sum(accTelo)/len(accTelo)
+    
+    def accChrPerDataType(self):
+        chrData0 = []
+        chrData1 = []
+        chrData2 = []
+        for index, row in self.data.iterrows():
+            sequence = row["Sequence"]
+            chrom = row["Chromosome"]
+            telo  = row["Telomere"]
+            # do something with these values
+            chr_str, tel_label = self.predict_sequence(
+                    self.model, 
+                    self.tokenizer, 
+                    seq=sequence,         # your test DNA sequence
+                    k=self.k,                  # must match your training k-mer
+                    chunk_size=512,       # same chunk size as training
+                    overlap=50            # same overlap as training
+                )
+            #return f'telo expect int: {type(telo)}, chrom expect str: {type(chrom)}, chr_str exp str: {type(chr_str)}, tel_label exp int: {type(tel_label)}'
+            # for telo is 0,1,2, what is our chr accuracy?
+            if telo == 0:
+                res = 1 if chr_str == chrom else 0
+                chrData0.append(res)
+            elif telo == 1:
+                res = 1 if chr_str == chrom else 0
+                chrData1.append(res)
+            elif telo == 2: 
+                res = 1 if chr_str == chrom else 0
+                chrData2.append(res)
+
+            if index % 50 == 0:
+                print(f'{index} predictions made')
+
+        return { 'chr_acc_0': sum(chrData0)/len(chrData0),'chr_acc_1': sum(chrData1)/len(chrData1), 'chr_acc_2':sum(chrData2)/len(chrData2) }

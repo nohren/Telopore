@@ -1,1 +1,6 @@
 /data
+
+# Ignore PyTorch model files
+*.pt
+
+__pycache__/
