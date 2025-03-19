@@ -1,5 +1,7 @@
 # Telopore
-Using nanopore data to distinguish telomeric regions and their respective chromosomes
+Using nanopore data to distinguish telomeric regions and their respective chromosomes. 
+
+The idea is that long reads can capture meaningful variance in the nucleotides and making chromosome prediction possible. So we have two goals in this project. One is to predict the chromosome given a sequence and the other is to predict if the sequence is a telomere, a sub-telomere, or neither. We used Nanosim to transform short read sequencing into Oxford Nanopore Technology long-read sequences. During the nanosim process, sequence errors are injected into to the reads according to a model of the ONT basecaller.  This is to match the profile of real ONT reads.
 
 ## Data pipeline
 
